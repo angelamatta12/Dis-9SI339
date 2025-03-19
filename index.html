@@ -67,6 +67,7 @@
             <b>Current date/time :</b> <span id = "time"></span><br/>
         </p>
         <button type="button" onClick="displayInformation()">Display Information</button>
+        <button type="button" onClick="chanceColor()">Change Color</button>
     </div>
     <!---------------->
 
@@ -86,6 +87,11 @@
         function changeTitle() {
             document.querySelector("h1").textContent = "Celebrate Michigan Football!";
             console.log("Title changed to Celebrate Michigan Football!");
+
+        }
+
+        function changeColor() {
+          
             document.body.style.backgroundColor = "#003366";
         }
 
